@@ -27,7 +27,7 @@ const response = (ctx, statusCode, {data, error}) => {
       'Access-Control-Allow-Origin': '*'
     },
     body: JSON.stringify({
-      status: statusCode,
+      status_code: statusCode,
       request_id: ctx.id,
       data,
       error

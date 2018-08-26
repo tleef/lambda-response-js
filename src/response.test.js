@@ -71,7 +71,7 @@ describe('response', () => {
       const res = response(ctx, statusCodes.OK, data(o))
 
       expect(res.body).to.equal(JSON.stringify({
-        status: statusCodes.OK,
+        status_code: statusCodes.OK,
         request_id: ctx.id,
         data: o
       }))
