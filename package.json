@@ -1,6 +1,6 @@
 {
   "name": "@tleef/lambda-response-js",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "main": "lib/response.js",
   "scripts": {
     "build": "tsc",
